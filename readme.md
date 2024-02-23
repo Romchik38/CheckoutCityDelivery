@@ -21,17 +21,11 @@ A Shipping method.
 
 ## TODO
 
-[+] create system.xml
-[+] create config.xml
-[+] create Model
-  [+] free delivery
-  [+] error
-  [+] city names case insensentive, list separated by colon
-[+] shipping rates
-  [+] validation view
-  [+] validator model
-  [+] validation rules model
-[+] hide summury and shipping from checkout/cart
-  [-] create admin functionality
+1. hide checkout_cart_index boxes  
+  [+] create admin functionality ( system.xml )
+  [-] create a php class
+  [-] remove hardcoded tags from xml
+
+2. add city field to checkout_cart_index
 
 
