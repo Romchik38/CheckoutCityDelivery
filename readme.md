@@ -21,16 +21,17 @@ A Shipping method.
 
 ## TODO
 
-- [+] create system.xml
-- [+] create config.xml
-- [+] create Model
-    - [+] free delivery
-    - [+] error
-    - [+] city names case insensentive, list separated by colon
-- [+] shipping rates
-    - [+] validation view
-    - [+] validator model
-    - [+] validation rules model
-- [+] hide summury and shipping from checkout/cart
+[+] create system.xml
+[+] create config.xml
+[+] create Model
+  [+] free delivery
+  [+] error
+  [+] city names case insensentive, list separated by colon
+[+] shipping rates
+  [+] validation view
+  [+] validator model
+  [+] validation rules model
+[+] hide summury and shipping from checkout/cart
+  [-] create admin functionality
 
 
