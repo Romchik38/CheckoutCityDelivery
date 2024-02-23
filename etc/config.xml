@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <citydelivery>
+                <active>0</active>
+                <title>City Delivery</title>
+                <name>City Delivery</name>
+                <shipping_cost>0</shipping_cost>
+                <minimum_order_amount>0</minimum_order_amount>
+                <freeshipping_threshold>0</freeshipping_threshold>
+                <sallowspecific>0</sallowspecific>
+                <sort_order>15</sort_order>
+                <showmethod>0</showmethod>
+                <model>Romchik38\CheckoutCityDelivery\Model\Carrier\CityDelivery</model>
+                <error_message>Type city name to make shipping availible</error_message>
+            </citydelivery>
+        </carriers>
+    </default>
+</config>
