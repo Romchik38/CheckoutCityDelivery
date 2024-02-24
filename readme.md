@@ -4,6 +4,7 @@ CheckoutCityDelivery - is a Magento 2 module, that provides a shipping method. T
 
 ## Dependencies
 
+- Magent 2.4.6
 - Magento_Checkout
 
 ## Functionality
