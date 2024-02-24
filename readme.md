@@ -22,9 +22,8 @@ A Shipping method.
 ## TODO
 
 1. hide checkout_cart_index boxes  
-  [+] create admin functionality ( system.xml )
-  [-] create a php class
-  [-] remove hardcoded tags from xml
+  [+] create admin functionality ( system.xml )  
+  [-] edit checkout_cart_index
 
 2. add city field to checkout_cart_index
 

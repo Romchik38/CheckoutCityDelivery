@@ -60,7 +60,6 @@
                 <field id="hide_checkout_cart_boxes" translate="label" type="select" sortOrder="140" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
                     <label>Hide checkout/cart/ Summury and Shipping boxes</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-                    <backend_model>Romchik38\CheckoutCityDelivery\Model\Config\Backend\Checkout\Cart</backend_model>
                 </field>
             </group>
         </section>
