@@ -1,8 +1,19 @@
 <?xml version="1.0"?>
-<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column"
+    xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
-        <!-- Hide summary -->
-        <referenceBlock name="checkout.cart.summary.title" display="false"></referenceBlock>
-        <referenceBlock name="checkout.cart.shipping" display="false"></referenceBlock>
+        <referenceContainer name="cart.summary">
+            <container name="display_checkout_container" before="checkout.cart.summary.title">
+                <block
+                    template="Romchik38_CheckoutCityDelivery::checkout_cart_index.phtml"
+                    ifconfig="carriers/citydelivery/display_checkout_cart_boxes"
+                >
+                    <container name="display_checkout_container_2" />
+                </block>
+            </container>
+        </referenceContainer>
+
+        <move element="checkout.cart.summary.title" destination="display_checkout_container_2" />
+        <move element="checkout.cart.shipping" destination="display_checkout_container_2" />
     </body>
 </page>

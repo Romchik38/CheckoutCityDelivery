@@ -15,7 +15,7 @@
                 <showmethod>0</showmethod>
                 <model>Romchik38\CheckoutCityDelivery\Model\Carrier\CityDelivery</model>
                 <error_message>Type city name to make shipping availible</error_message>
-                <hide_checkout_cart_boxes>0</hide_checkout_cart_boxes>
+                <display_checkout_cart_boxes>1</display_checkout_cart_boxes>
             </citydelivery>
         </carriers>
     </default>
